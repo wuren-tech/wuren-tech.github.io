@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "Aladdin -- A LAnguage-independant, Deep Debug engINe"
+title                    : "Aladdin -- A LAnguage-independent, Deep Debug engINe"
 title_separator          : "-"
 subtitle                 : "五人科技有限公司" # site tagline that appears below site title in masthead
 name                     : # "Your Name"
