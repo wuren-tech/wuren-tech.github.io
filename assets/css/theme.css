@@ -1,0 +1,512 @@
+/*-------------------------------------------------*/
+/*  Template Name: PatLan
+/*  Author: CODASTROID
+/*  Version: 1.0.0
+/*  File Description: Template Colors & Fonts
+/*-------------------------------------------------*/
+/*  Table of Contents:
+/*---------------------
+/*      + Font Families
+/*      + Colors
+/*-------------------------------------------------*/
+
+
+/*-------------------------------------------------*/
+/* FONT FAMILIES
+/*-------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i');
+
+body,
+.font-one {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*-------------------------------------------------*/
+/* COLORS
+/*-------------------------------------------------*/
+
+body {
+    color: #7b7b93;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: #444;
+}
+
+.theme-green .text-primary {
+    color: #12d467 !important;
+}
+
+.theme-red .text-primary {
+    color: #ff4858 !important;
+}
+
+.theme-blue .text-primary {
+    color: #108afd !important;
+}
+
+.text-white,
+.theme-blue .bg-primary a {
+    color: #fff;
+}
+
+.theme-blue .bg-primary,
+.theme-blue.bg-primary {
+    background-color: #108afd !important;
+}
+
+.form-control {
+    color: #7b7b93;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #90909c;
+}
+
+.form-control::-moz-placeholder {
+  color: #90909c;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #90909c;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #90909c;
+}
+
+.form-control::placeholder {
+  color: #90909c;
+}
+
+.theme-blue .form-control:focus {
+    border-color: #108afd;
+}
+.theme-green .form-control:focus {
+    border-color: #12d467;
+}
+.theme-red .form-control:focus {
+    border-color: #ff4858;
+}
+
+.form-control.error,
+.form-control.error:focus {
+    border-color: #fd397a;
+}
+
+.theme-green .btn-primary,
+.theme-green.btn-primary {
+    color: #fff;
+    background-color: rgb(18, 212, 103);
+    border-color: transparent;
+}
+.theme-green .btn-primary.btn-soft,
+.theme-green.btn-primary.btn-soft {
+    color: rgb(18, 212, 103);
+    background-color: rgba(18, 212, 103, .2);
+}
+.theme-green .btn-primary.btn-outline,
+.theme-green.btn-primary.btn-outline {
+    border-color: rgb(18, 212, 103);
+    color: rgb(18, 212, 103);
+    background-color: transparent;
+}
+
+.theme-green .btn-primary:hover,
+.theme-green.btn-primary:hover,
+.theme-green .btn-primary:focus,
+.theme-green.btn-primary:focus,
+.theme-green .btn-primary:not(:disabled):not(.disabled).active,
+.theme-green .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: rgb(13, 179, 86);
+    border-color: transparent;
+}
+.theme-green .btn-primary.btn-soft:hover,
+.theme-green.btn-primary.btn-soft:hover,
+.theme-green .btn-primary.btn-soft:not(:disabled):not(.disabled).active,
+.theme-green.btn-primary.btn-soft:not(:disabled):not(.disabled):active,
+.theme-green .btn-primary.btn-outline:hover,
+.theme-green.btn-primary.btn-outline:hover,
+.theme-green .btn-primary.btn-outline:not(:disabled):not(.disabled).active,
+.theme-green.btn-primary.btn-outline:not(:disabled):not(.disabled):active {
+    background-color: rgb(18, 212, 103);
+    color: #fff;
+}
+.theme-green .btn-primary.btn-soft:focus,
+.theme-green.btn-primary.btn-soft:focus,
+.theme-green .btn-primary.btn-outline:focus,
+.theme-green.btn-primary.btn-outline:focus {
+    background-color: rgb(13, 179, 86);
+    color: #fff
+}
+
+.theme-blue .btn-primary,
+.theme-blue.btn-primary {
+    color: #fff;
+    background-color: rgb(16, 138, 253);
+    border-color: transparent;
+}
+.theme-blue .btn-primary.btn-soft,
+.theme-blue.btn-primary.btn-soft {
+    color: rgb(16, 138, 253);
+    background-color: rgba(16, 138, 253, .2);
+}
+.theme-blue .btn-primary.btn-outline,
+.theme-blue.btn-primary.btn-outline {
+    border-color: rgb(16, 138, 253);
+    color: rgb(16, 138, 253);
+    background-color: transparent;
+}
+
+.theme-blue .btn-primary:hover,
+.theme-blue.btn-primary:hover,
+.theme-blue .btn-primary:focus,
+.theme-blue.btn-primary:focus,
+.theme-blue .btn-primary:not(:disabled):not(.disabled).active,
+.theme-blue .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: rgb(12, 113, 208);
+    border-color: transparent;
+}
+.theme-blue .btn-primary.btn-soft:hover,
+.theme-blue.btn-primary.btn-soft:hover,
+.theme-blue .btn-primary.btn-soft:not(:disabled):not(.disabled).active,
+.theme-blue.btn-primary.btn-soft:not(:disabled):not(.disabled):active,
+.theme-blue .btn-primary.btn-outline:hover,
+.theme-blue.btn-primary.btn-outline:hover,
+.theme-blue .btn-primary.btn-outline:not(:disabled):not(.disabled).active,
+.theme-blue.btn-primary.btn-outline:not(:disabled):not(.disabled):active {
+    background-color: rgb(12, 113, 208);
+    color: #fff;
+}
+.theme-blue .btn-primary.btn-soft:focus,
+.theme-blue.btn-primary.btn-soft:focus,
+.theme-blue .btn-primary.btn-outline:focus,
+.theme-blue.btn-primary.btn-outline:focus {
+    background-color: rgb(12, 113, 208);
+    color: #fff
+}
+.theme-red .btn-primary,
+.theme-red.btn-primary {
+    color: #fff;
+    background-color: rgb(255, 72, 88);
+    border-color: transparent;
+}
+.theme-red .btn-primary.btn-soft,
+.theme-red.btn-primary.btn-soft {
+    color: rgb(255, 72, 88);
+    background-color: rgba(255, 72, 88, .2);;
+}
+.theme-red .btn-primary.btn-outline,
+.theme-red.btn-primary.btn-outline {
+    border-color: rgb(255, 72, 88);
+    color: rgb(255, 72, 88);
+    background-color: transparent;
+}
+
+.theme-red .btn-primary:hover,
+.theme-red.btn-primary:hover,
+.theme-red .btn-primary:focus,
+.theme-red.btn-primary:focus,
+.theme-red .btn-primary:not(:disabled):not(.disabled).active,
+.theme-red .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: rgb(216, 61, 74);
+    border-color: transparent;
+}
+.theme-red .btn-primary.btn-soft:hover,
+.theme-red.btn-primary.btn-soft:hover,
+.theme-red .btn-primary.btn-soft:not(:disabled):not(.disabled).active,
+.theme-red.btn-primary.btn-soft:not(:disabled):not(.disabled):active,
+.theme-red .btn-primary.btn-outline:hover,
+.theme-red.btn-primary.btn-outline:hover,
+.theme-red .btn-primary.btn-outline:not(:disabled):not(.disabled).active,
+.theme-red.btn-primary.btn-outline:not(:disabled):not(.disabled):active {
+    background-color: rgb(216, 61, 74);
+    color: #fff;
+}
+.theme-red .btn-primary.btn-soft:focus,
+.theme-red.btn-primary.btn-soft:focus,
+.theme-red .btn-primary.btn-outline:focus,
+.theme-red.btn-primary.btn-outline:focus {
+    background-color: rgb(216, 61, 74);
+    color: #fff
+}
+
+.btn-white {
+    background-color: #fff;
+    border-color: transparent;
+}
+.btn-white.btn-soft:hover,
+.btn-white.btn-soft:focus,
+.btn-white.btn-soft:not(:disabled):not(.disabled).active,
+.btn-white.btn-soft:not(:disabled):not(.disabled):active,
+.btn-white.btn-outline:hover,
+.btn-white.btn-outline:focus,
+.btn-white.btn-outline:not(:disabled):not(.disabled).active,
+.btn-white.btn-outline:not(:disabled):not(.disabled):active {
+    background-color: #fff;
+}
+.theme-green .btn-white,
+.theme-green .btn-white.btn-outline:hover,
+.theme-green .btn-white.btn-outline:focus,
+.theme-green .btn-white.btn-soft:hover,
+.theme-green .btn-white.btn-soft:focus,
+.theme-green .btn-white:not(:disabled):not(.disabled).active,
+.theme-green .btn-white:not(:disabled):not(.disabled):active {
+    color: rgb(18, 212, 103);
+}
+.theme-blue .btn-white,
+.theme-blue .btn-white.btn-outline:hover,
+.theme-blue .btn-white.btn-outline:focus,
+.theme-blue .btn-white.btn-soft:hover,
+.theme-blue .btn-white.btn-soft:focus,
+.theme-blue .btn-white:not(:disabled):not(.disabled).active,
+.theme-blue .btn-white:not(:disabled):not(.disabled):active  {
+    color: rgb(16, 138, 253);
+}
+.theme-red .btn-white,
+.theme-red .btn-white.btn-outline:hover,
+.theme-red .btn-white.btn-outline:focus,
+.theme-red .btn-white.btn-soft:hover,
+.theme-red .btn-white.btn-soft:focus,
+.theme-red .btn-white:not(:disabled):not(.disabled).active,
+.theme-red .btn-white:not(:disabled):not(.disabled):active {
+    color: rgb(255, 72, 88);
+}
+
+.btn-white.btn-outline {
+    border-color: #fff;
+    color: #fff;
+    background-color: transparent;
+}
+.btn-white.btn-soft {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .3);
+}
+.btn-white.btn-link {
+    color: #fff;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.rating-stars {
+    color: #f8ac00;
+}
+
+.subtitle {
+    color: #a2a2a2;
+}
+.alert-success {
+    border-color: transparent;
+    background-color: rgba(10,187,135,.1);
+    color: #0abb87;
+    cursor: text;
+}
+.alert-danger {
+    border-color: transparent;
+    background-color: rgba(253,57,122,.1);
+    color: #fd397a;
+    cursor: text;
+}
+.invalid-feedback {
+    color: #fd397a;
+}
+
+.social-icons .icon-facebook {
+    color: #4267B2;
+}
+.social-icons .icon-twitter {
+    color: #1da1f2;
+}
+.social-icons .icon-instagram {
+    color: #c13584;
+}
+.social-icons .icon-youtube {
+    color: #ff0000;
+}
+
+.theme-green .section-styled:before {
+    background-color: #12d467;
+}
+
+.theme-blue .section-styled:before {
+    background-color: #108afd;
+}
+.theme-red .section .section-icon {
+    background-color: #ffecee;
+    color: #ff4959;
+}
+
+.theme-green .header {
+    background-color: #12d467;
+}
+
+@media (min-width: 992px) {
+    .theme-blue .navbar-brand {
+        color: #108afd;
+    }
+}
+
+.hero {
+    color: #fff;
+}
+
+@media(min-width: 992px) {
+    .theme-blue .header.style-two .hero {
+        color: #222;
+    }
+    .theme-blue .header.style-two .hero p {
+        color: #7b7b93;
+    }
+}
+
+.service-item .icon.green {
+    color: #55de8e;
+}
+.service-item .icon.red {
+    color: #ff4f5f;
+}
+.service-item .icon.blue {
+    color: #3d9dfd;
+}
+.service-item .icon.orange {
+    color: #f6a67d;
+}
+
+.feautred-service.style-two .service-item .icon.green {
+    background-color: #e7faf0;
+}
+.feautred-service.style-two .service-item .icon.red {
+    background-color: #ffeced;
+}
+.feautred-service.style-two .service-item .icon.blue {
+    background-color: #e7f3ff;
+}
+.feautred-service.style-two .service-item .icon.orange {
+    background-color: #fdf2ee;
+}
+
+.theme-green .feature-item .icon {
+    color: #12d467;
+}
+
+.theme-green .feature-item .feature-ribbon {
+    background-color: #12d467;
+}
+
+.theme-green .footer {
+    background-color: #12d467;
+}
+
+.theme-red .header.style-two {
+    background-color: #ff4858;
+}
+
+.theme-red .feature-item .icon {
+    color: #ff4858;
+}
+
+.theme-red .feature-item .feature-ribbon {
+    background-color: #ff4858;
+}
+
+.theme-red .footer.style-one,
+.theme-red .footer.style-two {
+    background-color: #ff4858;
+}
+
+.theme-blue .feature-item .icon {
+    color: #108afd;
+}
+
+.theme-blue .feature-item .feature-ribbon {
+    background-color: #108afd;
+}
+
+.theme-blue .footer {
+    background-color: #108afd;
+}
+
+.contact-us .contact-form {
+    background-color: #fff;
+}
+
+.theme-blue .section-styled:before,
+.theme-blue .testimonials.style-two:before,
+.theme-blue .choose-us.style-two:before {
+    background-color: #108afd;
+}
+
+.theme-green .section-styled:before,
+.theme-green .testimonials.style-two:before,
+.theme-green .choose-us.style-two:before {
+    background-color: #12d467;
+}
+
+.theme-red .section-styled:before,
+.theme-red .testimonials.style-two:before,
+.theme-red .choose-us.style-two:before {
+    background-color: #ff4858;
+}
+
+
+.theme-blue .about-us .video-play {
+    background-color: #108afd;
+}
+.theme-green .about-us .video-play {
+    background-color: #12d467;
+}
+.theme-red .about-us .video-play {
+    background-color: #ff4858;
+}
+.about-us .video-play svg {
+    fill: #fff;
+}
+
+.subscribe.style-one .form-error-message {
+    color: #f5faff;
+    right: 0;
+}
+.subscribe.style-one .alert {
+    font-size: 12px;
+    border-radius: 50em;
+}
+.subscribe.style-one .alert-success {
+    background-color: rgb(18, 212, 103);
+    color: #f5faff;
+}
+.subscribe.style-one .alert-danger {
+    background-color: #fd397a;
+    color: #f5faff;
+}
+
+.theme-one .testimonials.style-one .owl-nav button {
+    color: #108afd; 
+}
+.theme-one .footer .footer-subscribe-form .btn {
+    color: #108afd; 
+}
+
+.theme-blue .owl-theme .owl-dots .owl-dot.active span,
+.theme-blue .owl-theme .owl-dots .owl-dot:hover span {
+    background: #108afd;
+}
+
+.theme-green .owl-theme .owl-dots .owl-dot.active span,
+.theme-green .owl-theme .owl-dots .owl-dot:hover span {
+    background: #12d467;
+}
+
+.theme-red .owl-theme .owl-dots .owl-dot.active span,
+.theme-red .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ff4858;
+}
+
+.footer.style-one .footer-bottom {
+    color: #fff;
+}
